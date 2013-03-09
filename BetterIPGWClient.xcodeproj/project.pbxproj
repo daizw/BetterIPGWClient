@@ -12,13 +12,12 @@
 		B384C63D16EAFF0F0087F6A2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B384C63C16EAFF0F0087F6A2 /* CoreGraphics.framework */; };
 		B384C64316EAFF0F0087F6A2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B384C64116EAFF0F0087F6A2 /* InfoPlist.strings */; };
 		B384C64516EAFF0F0087F6A2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B384C64416EAFF0F0087F6A2 /* main.m */; };
-		B384C64916EAFF100087F6A2 /* ICMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B384C64816EAFF100087F6A2 /* ICMAppDelegate.m */; };
+		B384C64916EAFF100087F6A2 /* BGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B384C64816EAFF100087F6A2 /* BGAppDelegate.m */; };
 		B384C64C16EAFF100087F6A2 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B384C64A16EAFF100087F6A2 /* MainStoryboard_iPhone.storyboard */; };
 		B384C64F16EAFF100087F6A2 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B384C64D16EAFF100087F6A2 /* MainStoryboard_iPad.storyboard */; };
-		B384C65216EAFF100087F6A2 /* ICMFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B384C65116EAFF100087F6A2 /* ICMFirstViewController.m */; };
+		B384C65216EAFF100087F6A2 /* BGFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B384C65116EAFF100087F6A2 /* BGFirstViewController.m */; };
 		B384C65416EAFF100087F6A2 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = B384C65316EAFF100087F6A2 /* first.png */; };
 		B384C65616EAFF100087F6A2 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B384C65516EAFF100087F6A2 /* first@2x.png */; };
-		B384C65916EAFF100087F6A2 /* ICMSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B384C65816EAFF100087F6A2 /* ICMSecondViewController.m */; };
 		B384C65B16EAFF100087F6A2 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = B384C65A16EAFF100087F6A2 /* second.png */; };
 		B384C65D16EAFF100087F6A2 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B384C65C16EAFF100087F6A2 /* second@2x.png */; };
 		B384C66516EAFF100087F6A2 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B384C66416EAFF100087F6A2 /* SenTestingKit.framework */; };
@@ -41,6 +40,7 @@
 		B3F6B8B816EB279B00CF2B80 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3F6B8B716EB279B00CF2B80 /* CFNetwork.framework */; };
 		B3F6B8BA16EB285700CF2B80 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3F6B8B916EB285600CF2B80 /* SystemConfiguration.framework */; };
 		B3F6B8BC16EB286900CF2B80 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3F6B8BB16EB286900CF2B80 /* Security.framework */; };
+		B3F6B8BF16EB2EDF00CF2B80 /* BGNetEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F6B8BE16EB2EDF00CF2B80 /* BGNetEngine.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,16 +62,14 @@
 		B384C64216EAFF0F0087F6A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B384C64416EAFF0F0087F6A2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B384C64616EAFF0F0087F6A2 /* BetterIPGWClient-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BetterIPGWClient-Prefix.pch"; sourceTree = "<group>"; };
-		B384C64716EAFF100087F6A2 /* ICMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ICMAppDelegate.h; sourceTree = "<group>"; };
-		B384C64816EAFF100087F6A2 /* ICMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ICMAppDelegate.m; sourceTree = "<group>"; };
+		B384C64716EAFF100087F6A2 /* BGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BGAppDelegate.h; sourceTree = "<group>"; };
+		B384C64816EAFF100087F6A2 /* BGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BGAppDelegate.m; sourceTree = "<group>"; };
 		B384C64B16EAFF100087F6A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		B384C64E16EAFF100087F6A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		B384C65016EAFF100087F6A2 /* ICMFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ICMFirstViewController.h; sourceTree = "<group>"; };
-		B384C65116EAFF100087F6A2 /* ICMFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ICMFirstViewController.m; sourceTree = "<group>"; };
+		B384C65016EAFF100087F6A2 /* BGFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BGFirstViewController.h; sourceTree = "<group>"; };
+		B384C65116EAFF100087F6A2 /* BGFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BGFirstViewController.m; sourceTree = "<group>"; };
 		B384C65316EAFF100087F6A2 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = first.png; path = BetterIPGWClient/first.png; sourceTree = "<group>"; };
 		B384C65516EAFF100087F6A2 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "first@2x.png"; path = "BetterIPGWClient/first@2x.png"; sourceTree = "<group>"; };
-		B384C65716EAFF100087F6A2 /* ICMSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ICMSecondViewController.h; sourceTree = "<group>"; };
-		B384C65816EAFF100087F6A2 /* ICMSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ICMSecondViewController.m; sourceTree = "<group>"; };
 		B384C65A16EAFF100087F6A2 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = second.png; path = BetterIPGWClient/second.png; sourceTree = "<group>"; };
 		B384C65C16EAFF100087F6A2 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "second@2x.png"; path = "BetterIPGWClient/second@2x.png"; sourceTree = "<group>"; };
 		B384C66316EAFF100087F6A2 /* BetterIPGWClientTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BetterIPGWClientTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -104,6 +102,8 @@
 		B3F6B8B716EB279B00CF2B80 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		B3F6B8B916EB285600CF2B80 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		B3F6B8BB16EB286900CF2B80 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		B3F6B8BD16EB2EDF00CF2B80 /* BGNetEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGNetEngine.h; sourceTree = "<group>"; };
+		B3F6B8BE16EB2EDF00CF2B80 /* BGNetEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BGNetEngine.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,14 +171,14 @@
 		B384C63E16EAFF0F0087F6A2 /* BetterIPGWClient */ = {
 			isa = PBXGroup;
 			children = (
-				B384C64716EAFF100087F6A2 /* ICMAppDelegate.h */,
-				B384C64816EAFF100087F6A2 /* ICMAppDelegate.m */,
+				B384C64716EAFF100087F6A2 /* BGAppDelegate.h */,
+				B384C64816EAFF100087F6A2 /* BGAppDelegate.m */,
 				B384C64A16EAFF100087F6A2 /* MainStoryboard_iPhone.storyboard */,
 				B384C64D16EAFF100087F6A2 /* MainStoryboard_iPad.storyboard */,
-				B384C65016EAFF100087F6A2 /* ICMFirstViewController.h */,
-				B384C65116EAFF100087F6A2 /* ICMFirstViewController.m */,
-				B384C65716EAFF100087F6A2 /* ICMSecondViewController.h */,
-				B384C65816EAFF100087F6A2 /* ICMSecondViewController.m */,
+				B384C65016EAFF100087F6A2 /* BGFirstViewController.h */,
+				B384C65116EAFF100087F6A2 /* BGFirstViewController.m */,
+				B3F6B8BD16EB2EDF00CF2B80 /* BGNetEngine.h */,
+				B3F6B8BE16EB2EDF00CF2B80 /* BGNetEngine.m */,
 				B384C63F16EAFF0F0087F6A2 /* Supporting Files */,
 			);
 			path = BetterIPGWClient;
@@ -314,7 +314,7 @@
 		B384C62B16EAFF0F0087F6A2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = ICM;
+				CLASSPREFIX = BG;
 				LastUpgradeCheck = 0430;
 			};
 			buildConfigurationList = B384C62E16EAFF0F0087F6A2 /* Build configuration list for PBXProject "BetterIPGWClient" */;
@@ -386,9 +386,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B384C64516EAFF0F0087F6A2 /* main.m in Sources */,
-				B384C64916EAFF100087F6A2 /* ICMAppDelegate.m in Sources */,
-				B384C65216EAFF100087F6A2 /* ICMFirstViewController.m in Sources */,
-				B384C65916EAFF100087F6A2 /* ICMSecondViewController.m in Sources */,
+				B384C64916EAFF100087F6A2 /* BGAppDelegate.m in Sources */,
+				B384C65216EAFF100087F6A2 /* BGFirstViewController.m in Sources */,
 				B3F6B8AF16EB274C00CF2B80 /* NSData+Base64.m in Sources */,
 				B3F6B8B016EB274C00CF2B80 /* NSDate+RFC1123.m in Sources */,
 				B3F6B8B116EB274C00CF2B80 /* NSDictionary+RequestEncoding.m in Sources */,
@@ -397,6 +396,7 @@
 				B3F6B8B416EB274C00CF2B80 /* MKNetworkEngine.m in Sources */,
 				B3F6B8B516EB274C00CF2B80 /* MKNetworkOperation.m in Sources */,
 				B3F6B8B616EB274C00CF2B80 /* Reachability.m in Sources */,
+				B3F6B8BF16EB2EDF00CF2B80 /* BGNetEngine.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

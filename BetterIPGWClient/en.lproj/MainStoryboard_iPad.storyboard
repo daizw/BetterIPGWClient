@@ -8,7 +8,7 @@
         <!--First View Controller - First-->
         <scene sceneID="11">
             <objects>
-                <viewController id="2" customClass="ICMFirstViewController" sceneMemberID="viewController">
+                <viewController id="2" customClass="BGFirstViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="17">
                         <rect key="frame" x="0.0" y="20" width="768" height="955"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -30,7 +30,7 @@
         <!--Second View Controller - Second-->
         <scene sceneID="13">
             <objects>
-                <viewController id="3" customClass="ICMSecondViewController" sceneMemberID="viewController">
+                <viewController id="3" customClass="BGSecondViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="16">
                         <rect key="frame" x="0.0" y="20" width="768" height="955"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
