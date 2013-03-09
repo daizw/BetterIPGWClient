@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B384C63916EAFF0F0087F6A2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B384C63816EAFF0F0087F6A2 /* UIKit.framework */; };
+		B384C63B16EAFF0F0087F6A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B384C63A16EAFF0F0087F6A2 /* Foundation.framework */; };
+		B384C63D16EAFF0F0087F6A2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B384C63C16EAFF0F0087F6A2 /* CoreGraphics.framework */; };
+		B384C64316EAFF0F0087F6A2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B384C64116EAFF0F0087F6A2 /* InfoPlist.strings */; };
+		B384C64516EAFF0F0087F6A2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B384C64416EAFF0F0087F6A2 /* main.m */; };
+		B384C64916EAFF100087F6A2 /* ICMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B384C64816EAFF100087F6A2 /* ICMAppDelegate.m */; };
+		B384C64C16EAFF100087F6A2 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B384C64A16EAFF100087F6A2 /* MainStoryboard_iPhone.storyboard */; };
+		B384C64F16EAFF100087F6A2 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B384C64D16EAFF100087F6A2 /* MainStoryboard_iPad.storyboard */; };
+		B384C65216EAFF100087F6A2 /* ICMFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B384C65116EAFF100087F6A2 /* ICMFirstViewController.m */; };
+		B384C65416EAFF100087F6A2 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = B384C65316EAFF100087F6A2 /* first.png */; };
+		B384C65616EAFF100087F6A2 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B384C65516EAFF100087F6A2 /* first@2x.png */; };
+		B384C65916EAFF100087F6A2 /* ICMSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B384C65816EAFF100087F6A2 /* ICMSecondViewController.m */; };
+		B384C65B16EAFF100087F6A2 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = B384C65A16EAFF100087F6A2 /* second.png */; };
+		B384C65D16EAFF100087F6A2 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B384C65C16EAFF100087F6A2 /* second@2x.png */; };
+		B384C66516EAFF100087F6A2 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B384C66416EAFF100087F6A2 /* SenTestingKit.framework */; };
+		B384C66616EAFF100087F6A2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B384C63816EAFF0F0087F6A2 /* UIKit.framework */; };
+		B384C66716EAFF100087F6A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B384C63A16EAFF0F0087F6A2 /* Foundation.framework */; };
+		B384C66F16EAFF100087F6A2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B384C66D16EAFF100087F6A2 /* InfoPlist.strings */; };
+		B384C67216EAFF100087F6A2 /* BetterIPGWClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B384C67116EAFF100087F6A2 /* BetterIPGWClientTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B384C66816EAFF100087F6A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B384C62B16EAFF0F0087F6A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B384C63316EAFF0F0087F6A2;
+			remoteInfo = BetterIPGWClient;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B384C63416EAFF0F0087F6A2 /* BetterIPGWClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BetterIPGWClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B384C63816EAFF0F0087F6A2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B384C63A16EAFF0F0087F6A2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B384C63C16EAFF0F0087F6A2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B384C64016EAFF0F0087F6A2 /* BetterIPGWClient-Info.plist */ = {isa = PBXFileReference; path = "BetterIPGWClient-Info.plist"; sourceTree = "<group>"; };
+		B384C64216EAFF0F0087F6A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B384C64416EAFF0F0087F6A2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B384C64616EAFF0F0087F6A2 /* BetterIPGWClient-Prefix.pch */ = {isa = PBXFileReference; path = "BetterIPGWClient-Prefix.pch"; sourceTree = "<group>"; };
+		B384C64716EAFF100087F6A2 /* ICMAppDelegate.h */ = {isa = PBXFileReference; path = ICMAppDelegate.h; sourceTree = "<group>"; };
+		B384C64816EAFF100087F6A2 /* ICMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ICMAppDelegate.m; sourceTree = "<group>"; };
+		B384C64B16EAFF100087F6A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		B384C64E16EAFF100087F6A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		B384C65016EAFF100087F6A2 /* ICMFirstViewController.h */ = {isa = PBXFileReference; path = ICMFirstViewController.h; sourceTree = "<group>"; };
+		B384C65116EAFF100087F6A2 /* ICMFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ICMFirstViewController.m; sourceTree = "<group>"; };
+		B384C65316EAFF100087F6A2 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		B384C65516EAFF100087F6A2 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		B384C65716EAFF100087F6A2 /* ICMSecondViewController.h */ = {isa = PBXFileReference; path = ICMSecondViewController.h; sourceTree = "<group>"; };
+		B384C65816EAFF100087F6A2 /* ICMSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ICMSecondViewController.m; sourceTree = "<group>"; };
+		B384C65A16EAFF100087F6A2 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		B384C65C16EAFF100087F6A2 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		B384C66316EAFF100087F6A2 /* BetterIPGWClientTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BetterIPGWClientTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B384C66416EAFF100087F6A2 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		B384C66C16EAFF100087F6A2 /* BetterIPGWClientTests-Info.plist */ = {isa = PBXFileReference; path = "BetterIPGWClientTests-Info.plist"; sourceTree = "<group>"; };
+		B384C66E16EAFF100087F6A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B384C67016EAFF100087F6A2 /* BetterIPGWClientTests.h */ = {isa = PBXFileReference; path = BetterIPGWClientTests.h; sourceTree = "<group>"; };
+		B384C67116EAFF100087F6A2 /* BetterIPGWClientTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BetterIPGWClientTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B384C63116EAFF0F0087F6A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B384C63916EAFF0F0087F6A2 /* UIKit.framework in Frameworks */,
+				B384C63B16EAFF0F0087F6A2 /* Foundation.framework in Frameworks */,
+				B384C63D16EAFF0F0087F6A2 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B384C65F16EAFF100087F6A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B384C66516EAFF100087F6A2 /* SenTestingKit.framework in Frameworks */,
+				B384C66616EAFF100087F6A2 /* UIKit.framework in Frameworks */,
+				B384C66716EAFF100087F6A2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B384C62916EAFF0F0087F6A2 = {
+			isa = PBXGroup;
+			children = (
+				B384C63E16EAFF0F0087F6A2 /* BetterIPGWClient */,
+				B384C66A16EAFF100087F6A2 /* BetterIPGWClientTests */,
+				B384C63716EAFF0F0087F6A2 /* Frameworks */,
+				B384C63516EAFF0F0087F6A2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B384C63516EAFF0F0087F6A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B384C63416EAFF0F0087F6A2 /* BetterIPGWClient.app */,
+				B384C66316EAFF100087F6A2 /* BetterIPGWClientTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B384C63716EAFF0F0087F6A2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B384C63816EAFF0F0087F6A2 /* UIKit.framework */,
+				B384C63A16EAFF0F0087F6A2 /* Foundation.framework */,
+				B384C63C16EAFF0F0087F6A2 /* CoreGraphics.framework */,
+				B384C66416EAFF100087F6A2 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B384C63E16EAFF0F0087F6A2 /* BetterIPGWClient */ = {
+			isa = PBXGroup;
+			children = (
+				B384C64716EAFF100087F6A2 /* ICMAppDelegate.h */,
+				B384C64816EAFF100087F6A2 /* ICMAppDelegate.m */,
+				B384C64A16EAFF100087F6A2 /* MainStoryboard_iPhone.storyboard */,
+				B384C64D16EAFF100087F6A2 /* MainStoryboard_iPad.storyboard */,
+				B384C65016EAFF100087F6A2 /* ICMFirstViewController.h */,
+				B384C65116EAFF100087F6A2 /* ICMFirstViewController.m */,
+				B384C65316EAFF100087F6A2 /* first.png */,
+				B384C65516EAFF100087F6A2 /* first@2x.png */,
+				B384C65716EAFF100087F6A2 /* ICMSecondViewController.h */,
+				B384C65816EAFF100087F6A2 /* ICMSecondViewController.m */,
+				B384C65A16EAFF100087F6A2 /* second.png */,
+				B384C65C16EAFF100087F6A2 /* second@2x.png */,
+				B384C63F16EAFF0F0087F6A2 /* Supporting Files */,
+			);
+			path = BetterIPGWClient;
+			sourceTree = "<group>";
+		};
+		B384C63F16EAFF0F0087F6A2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B384C64016EAFF0F0087F6A2 /* BetterIPGWClient-Info.plist */,
+				B384C64116EAFF0F0087F6A2 /* InfoPlist.strings */,
+				B384C64416EAFF0F0087F6A2 /* main.m */,
+				B384C64616EAFF0F0087F6A2 /* BetterIPGWClient-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B384C66A16EAFF100087F6A2 /* BetterIPGWClientTests */ = {
+			isa = PBXGroup;
+			children = (
+				B384C67016EAFF100087F6A2 /* BetterIPGWClientTests.h */,
+				B384C67116EAFF100087F6A2 /* BetterIPGWClientTests.m */,
+				B384C66B16EAFF100087F6A2 /* Supporting Files */,
+			);
+			path = BetterIPGWClientTests;
+			sourceTree = "<group>";
+		};
+		B384C66B16EAFF100087F6A2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B384C66C16EAFF100087F6A2 /* BetterIPGWClientTests-Info.plist */,
+				B384C66D16EAFF100087F6A2 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B384C63316EAFF0F0087F6A2 /* BetterIPGWClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B384C67516EAFF100087F6A2 /* Build configuration list for PBXNativeTarget "BetterIPGWClient" */;
+			buildPhases = (
+				B384C63016EAFF0F0087F6A2 /* Sources */,
+				B384C63116EAFF0F0087F6A2 /* Frameworks */,
+				B384C63216EAFF0F0087F6A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BetterIPGWClient;
+			productName = BetterIPGWClient;
+			productReference = B384C63416EAFF0F0087F6A2 /* BetterIPGWClient.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B384C66216EAFF100087F6A2 /* BetterIPGWClientTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B384C67816EAFF100087F6A2 /* Build configuration list for PBXNativeTarget "BetterIPGWClientTests" */;
+			buildPhases = (
+				B384C65E16EAFF100087F6A2 /* Sources */,
+				B384C65F16EAFF100087F6A2 /* Frameworks */,
+				B384C66016EAFF100087F6A2 /* Resources */,
+				B384C66116EAFF100087F6A2 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B384C66916EAFF100087F6A2 /* PBXTargetDependency */,
+			);
+			name = BetterIPGWClientTests;
+			productName = BetterIPGWClientTests;
+			productReference = B384C66316EAFF100087F6A2 /* BetterIPGWClientTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B384C62B16EAFF0F0087F6A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ICM;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = B384C62E16EAFF0F0087F6A2 /* Build configuration list for PBXProject "BetterIPGWClient" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B384C62916EAFF0F0087F6A2;
+			productRefGroup = B384C63516EAFF0F0087F6A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B384C63316EAFF0F0087F6A2 /* BetterIPGWClient */,
+				B384C66216EAFF100087F6A2 /* BetterIPGWClientTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B384C63216EAFF0F0087F6A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B384C64316EAFF0F0087F6A2 /* InfoPlist.strings in Resources */,
+				B384C64C16EAFF100087F6A2 /* MainStoryboard_iPhone.storyboard in Resources */,
+				B384C64F16EAFF100087F6A2 /* MainStoryboard_iPad.storyboard in Resources */,
+				B384C65416EAFF100087F6A2 /* first.png in Resources */,
+				B384C65616EAFF100087F6A2 /* first@2x.png in Resources */,
+				B384C65B16EAFF100087F6A2 /* second.png in Resources */,
+				B384C65D16EAFF100087F6A2 /* second@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B384C66016EAFF100087F6A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B384C66F16EAFF100087F6A2 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B384C66116EAFF100087F6A2 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B384C63016EAFF0F0087F6A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B384C64516EAFF0F0087F6A2 /* main.m in Sources */,
+				B384C64916EAFF100087F6A2 /* ICMAppDelegate.m in Sources */,
+				B384C65216EAFF100087F6A2 /* ICMFirstViewController.m in Sources */,
+				B384C65916EAFF100087F6A2 /* ICMSecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B384C65E16EAFF100087F6A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B384C67216EAFF100087F6A2 /* BetterIPGWClientTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B384C66916EAFF100087F6A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B384C63316EAFF0F0087F6A2 /* BetterIPGWClient */;
+			targetProxy = B384C66816EAFF100087F6A2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B384C64116EAFF0F0087F6A2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B384C64216EAFF0F0087F6A2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B384C64A16EAFF100087F6A2 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B384C64B16EAFF100087F6A2 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		B384C64D16EAFF100087F6A2 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B384C64E16EAFF100087F6A2 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		B384C66D16EAFF100087F6A2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B384C66E16EAFF100087F6A2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B384C67316EAFF100087F6A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B384C67416EAFF100087F6A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B384C67616EAFF100087F6A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BetterIPGWClient/BetterIPGWClient-Prefix.pch";
+				INFOPLIST_FILE = "BetterIPGWClient/BetterIPGWClient-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B384C67716EAFF100087F6A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BetterIPGWClient/BetterIPGWClient-Prefix.pch";
+				INFOPLIST_FILE = "BetterIPGWClient/BetterIPGWClient-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B384C67916EAFF100087F6A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BetterIPGWClient.app/BetterIPGWClient";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BetterIPGWClient/BetterIPGWClient-Prefix.pch";
+				INFOPLIST_FILE = "BetterIPGWClientTests/BetterIPGWClientTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		B384C67A16EAFF100087F6A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BetterIPGWClient.app/BetterIPGWClient";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BetterIPGWClient/BetterIPGWClient-Prefix.pch";
+				INFOPLIST_FILE = "BetterIPGWClientTests/BetterIPGWClientTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B384C62E16EAFF0F0087F6A2 /* Build configuration list for PBXProject "BetterIPGWClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B384C67316EAFF100087F6A2 /* Debug */,
+				B384C67416EAFF100087F6A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B384C67516EAFF100087F6A2 /* Build configuration list for PBXNativeTarget "BetterIPGWClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B384C67616EAFF100087F6A2 /* Debug */,
+				B384C67716EAFF100087F6A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B384C67816EAFF100087F6A2 /* Build configuration list for PBXNativeTarget "BetterIPGWClientTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B384C67916EAFF100087F6A2 /* Debug */,
+				B384C67A16EAFF100087F6A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B384C62B16EAFF0F0087F6A2 /* Project object */;
+}
