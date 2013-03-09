@@ -26,6 +26,21 @@
 		B384C66716EAFF100087F6A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B384C63A16EAFF0F0087F6A2 /* Foundation.framework */; };
 		B384C66F16EAFF100087F6A2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B384C66D16EAFF100087F6A2 /* InfoPlist.strings */; };
 		B384C67216EAFF100087F6A2 /* BetterIPGWClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B384C67116EAFF100087F6A2 /* BetterIPGWClientTests.m */; };
+		B384C68116EB0EF20087F6A2 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B384C68016EB0EF20087F6A2 /* Icon.png */; };
+		B384C68316EB0EF50087F6A2 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B384C68216EB0EF50087F6A2 /* Icon@2x.png */; };
+		B384C68916EB13FD0087F6A2 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = B384C68816EB13FD0087F6A2 /* Icon-72.png */; };
+		B384C68B16EB14C70087F6A2 /* Icon-144.png in Resources */ = {isa = PBXBuildFile; fileRef = B384C68A16EB14C70087F6A2 /* Icon-144.png */; };
+		B3F6B8AF16EB274C00CF2B80 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F6B89E16EB274C00CF2B80 /* NSData+Base64.m */; };
+		B3F6B8B016EB274C00CF2B80 /* NSDate+RFC1123.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F6B8A016EB274C00CF2B80 /* NSDate+RFC1123.m */; };
+		B3F6B8B116EB274C00CF2B80 /* NSDictionary+RequestEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F6B8A216EB274C00CF2B80 /* NSDictionary+RequestEncoding.m */; };
+		B3F6B8B216EB274C00CF2B80 /* NSString+MKNetworkKitAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F6B8A416EB274C00CF2B80 /* NSString+MKNetworkKitAdditions.m */; };
+		B3F6B8B316EB274C00CF2B80 /* UIAlertView+MKNetworkKitAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F6B8A616EB274C00CF2B80 /* UIAlertView+MKNetworkKitAdditions.m */; };
+		B3F6B8B416EB274C00CF2B80 /* MKNetworkEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F6B8A816EB274C00CF2B80 /* MKNetworkEngine.m */; };
+		B3F6B8B516EB274C00CF2B80 /* MKNetworkOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F6B8AB16EB274C00CF2B80 /* MKNetworkOperation.m */; };
+		B3F6B8B616EB274C00CF2B80 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F6B8AE16EB274C00CF2B80 /* Reachability.m */; };
+		B3F6B8B816EB279B00CF2B80 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3F6B8B716EB279B00CF2B80 /* CFNetwork.framework */; };
+		B3F6B8BA16EB285700CF2B80 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3F6B8B916EB285600CF2B80 /* SystemConfiguration.framework */; };
+		B3F6B8BC16EB286900CF2B80 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3F6B8BB16EB286900CF2B80 /* Security.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,32 +54,56 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B384C63416EAFF0F0087F6A2 /* BetterIPGWClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BetterIPGWClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B384C63416EAFF0F0087F6A2 /* Better Gateway.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Better Gateway.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B384C63816EAFF0F0087F6A2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B384C63A16EAFF0F0087F6A2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B384C63C16EAFF0F0087F6A2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		B384C64016EAFF0F0087F6A2 /* BetterIPGWClient-Info.plist */ = {isa = PBXFileReference; path = "BetterIPGWClient-Info.plist"; sourceTree = "<group>"; };
+		B384C64016EAFF0F0087F6A2 /* BetterIPGWClient-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BetterIPGWClient-Info.plist"; sourceTree = "<group>"; };
 		B384C64216EAFF0F0087F6A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B384C64416EAFF0F0087F6A2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B384C64616EAFF0F0087F6A2 /* BetterIPGWClient-Prefix.pch */ = {isa = PBXFileReference; path = "BetterIPGWClient-Prefix.pch"; sourceTree = "<group>"; };
-		B384C64716EAFF100087F6A2 /* ICMAppDelegate.h */ = {isa = PBXFileReference; path = ICMAppDelegate.h; sourceTree = "<group>"; };
+		B384C64616EAFF0F0087F6A2 /* BetterIPGWClient-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BetterIPGWClient-Prefix.pch"; sourceTree = "<group>"; };
+		B384C64716EAFF100087F6A2 /* ICMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ICMAppDelegate.h; sourceTree = "<group>"; };
 		B384C64816EAFF100087F6A2 /* ICMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ICMAppDelegate.m; sourceTree = "<group>"; };
 		B384C64B16EAFF100087F6A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		B384C64E16EAFF100087F6A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		B384C65016EAFF100087F6A2 /* ICMFirstViewController.h */ = {isa = PBXFileReference; path = ICMFirstViewController.h; sourceTree = "<group>"; };
+		B384C65016EAFF100087F6A2 /* ICMFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ICMFirstViewController.h; sourceTree = "<group>"; };
 		B384C65116EAFF100087F6A2 /* ICMFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ICMFirstViewController.m; sourceTree = "<group>"; };
-		B384C65316EAFF100087F6A2 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
-		B384C65516EAFF100087F6A2 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
-		B384C65716EAFF100087F6A2 /* ICMSecondViewController.h */ = {isa = PBXFileReference; path = ICMSecondViewController.h; sourceTree = "<group>"; };
+		B384C65316EAFF100087F6A2 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = first.png; path = BetterIPGWClient/first.png; sourceTree = "<group>"; };
+		B384C65516EAFF100087F6A2 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "first@2x.png"; path = "BetterIPGWClient/first@2x.png"; sourceTree = "<group>"; };
+		B384C65716EAFF100087F6A2 /* ICMSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ICMSecondViewController.h; sourceTree = "<group>"; };
 		B384C65816EAFF100087F6A2 /* ICMSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ICMSecondViewController.m; sourceTree = "<group>"; };
-		B384C65A16EAFF100087F6A2 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
-		B384C65C16EAFF100087F6A2 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		B384C65A16EAFF100087F6A2 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = second.png; path = BetterIPGWClient/second.png; sourceTree = "<group>"; };
+		B384C65C16EAFF100087F6A2 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "second@2x.png"; path = "BetterIPGWClient/second@2x.png"; sourceTree = "<group>"; };
 		B384C66316EAFF100087F6A2 /* BetterIPGWClientTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BetterIPGWClientTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B384C66416EAFF100087F6A2 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		B384C66C16EAFF100087F6A2 /* BetterIPGWClientTests-Info.plist */ = {isa = PBXFileReference; path = "BetterIPGWClientTests-Info.plist"; sourceTree = "<group>"; };
+		B384C66C16EAFF100087F6A2 /* BetterIPGWClientTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BetterIPGWClientTests-Info.plist"; sourceTree = "<group>"; };
 		B384C66E16EAFF100087F6A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		B384C67016EAFF100087F6A2 /* BetterIPGWClientTests.h */ = {isa = PBXFileReference; path = BetterIPGWClientTests.h; sourceTree = "<group>"; };
+		B384C67016EAFF100087F6A2 /* BetterIPGWClientTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BetterIPGWClientTests.h; sourceTree = "<group>"; };
 		B384C67116EAFF100087F6A2 /* BetterIPGWClientTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BetterIPGWClientTests.m; sourceTree = "<group>"; };
+		B384C68016EB0EF20087F6A2 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		B384C68216EB0EF50087F6A2 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		B384C68816EB13FD0087F6A2 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		B384C68A16EB14C70087F6A2 /* Icon-144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-144.png"; sourceTree = "<group>"; };
+		B3F6B89D16EB274C00CF2B80 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		B3F6B89E16EB274C00CF2B80 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		B3F6B89F16EB274C00CF2B80 /* NSDate+RFC1123.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+RFC1123.h"; sourceTree = "<group>"; };
+		B3F6B8A016EB274C00CF2B80 /* NSDate+RFC1123.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+RFC1123.m"; sourceTree = "<group>"; };
+		B3F6B8A116EB274C00CF2B80 /* NSDictionary+RequestEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+RequestEncoding.h"; sourceTree = "<group>"; };
+		B3F6B8A216EB274C00CF2B80 /* NSDictionary+RequestEncoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+RequestEncoding.m"; sourceTree = "<group>"; };
+		B3F6B8A316EB274C00CF2B80 /* NSString+MKNetworkKitAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MKNetworkKitAdditions.h"; sourceTree = "<group>"; };
+		B3F6B8A416EB274C00CF2B80 /* NSString+MKNetworkKitAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MKNetworkKitAdditions.m"; sourceTree = "<group>"; };
+		B3F6B8A516EB274C00CF2B80 /* UIAlertView+MKNetworkKitAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+MKNetworkKitAdditions.h"; sourceTree = "<group>"; };
+		B3F6B8A616EB274C00CF2B80 /* UIAlertView+MKNetworkKitAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+MKNetworkKitAdditions.m"; sourceTree = "<group>"; };
+		B3F6B8A716EB274C00CF2B80 /* MKNetworkEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKNetworkEngine.h; sourceTree = "<group>"; };
+		B3F6B8A816EB274C00CF2B80 /* MKNetworkEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKNetworkEngine.m; sourceTree = "<group>"; };
+		B3F6B8A916EB274C00CF2B80 /* MKNetworkKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKNetworkKit.h; sourceTree = "<group>"; };
+		B3F6B8AA16EB274C00CF2B80 /* MKNetworkOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKNetworkOperation.h; sourceTree = "<group>"; };
+		B3F6B8AB16EB274C00CF2B80 /* MKNetworkOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKNetworkOperation.m; sourceTree = "<group>"; };
+		B3F6B8AD16EB274C00CF2B80 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		B3F6B8AE16EB274C00CF2B80 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		B3F6B8B716EB279B00CF2B80 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		B3F6B8B916EB285600CF2B80 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		B3F6B8BB16EB286900CF2B80 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +111,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3F6B8BC16EB286900CF2B80 /* Security.framework in Frameworks */,
+				B3F6B8BA16EB285700CF2B80 /* SystemConfiguration.framework in Frameworks */,
+				B3F6B8B816EB279B00CF2B80 /* CFNetwork.framework in Frameworks */,
 				B384C63916EAFF0F0087F6A2 /* UIKit.framework in Frameworks */,
 				B384C63B16EAFF0F0087F6A2 /* Foundation.framework in Frameworks */,
 				B384C63D16EAFF0F0087F6A2 /* CoreGraphics.framework in Frameworks */,
@@ -95,6 +137,8 @@
 			isa = PBXGroup;
 			children = (
 				B384C63E16EAFF0F0087F6A2 /* BetterIPGWClient */,
+				B384C67F16EB0E150087F6A2 /* resources */,
+				B3F6B89B16EB274C00CF2B80 /* MKNetworkKit */,
 				B384C66A16EAFF100087F6A2 /* BetterIPGWClientTests */,
 				B384C63716EAFF0F0087F6A2 /* Frameworks */,
 				B384C63516EAFF0F0087F6A2 /* Products */,
@@ -104,7 +148,7 @@
 		B384C63516EAFF0F0087F6A2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B384C63416EAFF0F0087F6A2 /* BetterIPGWClient.app */,
+				B384C63416EAFF0F0087F6A2 /* Better Gateway.app */,
 				B384C66316EAFF100087F6A2 /* BetterIPGWClientTests.octest */,
 			);
 			name = Products;
@@ -113,6 +157,9 @@
 		B384C63716EAFF0F0087F6A2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B3F6B8BB16EB286900CF2B80 /* Security.framework */,
+				B3F6B8B916EB285600CF2B80 /* SystemConfiguration.framework */,
+				B3F6B8B716EB279B00CF2B80 /* CFNetwork.framework */,
 				B384C63816EAFF0F0087F6A2 /* UIKit.framework */,
 				B384C63A16EAFF0F0087F6A2 /* Foundation.framework */,
 				B384C63C16EAFF0F0087F6A2 /* CoreGraphics.framework */,
@@ -130,12 +177,8 @@
 				B384C64D16EAFF100087F6A2 /* MainStoryboard_iPad.storyboard */,
 				B384C65016EAFF100087F6A2 /* ICMFirstViewController.h */,
 				B384C65116EAFF100087F6A2 /* ICMFirstViewController.m */,
-				B384C65316EAFF100087F6A2 /* first.png */,
-				B384C65516EAFF100087F6A2 /* first@2x.png */,
 				B384C65716EAFF100087F6A2 /* ICMSecondViewController.h */,
 				B384C65816EAFF100087F6A2 /* ICMSecondViewController.m */,
-				B384C65A16EAFF100087F6A2 /* second.png */,
-				B384C65C16EAFF100087F6A2 /* second@2x.png */,
 				B384C63F16EAFF0F0087F6A2 /* Supporting Files */,
 			);
 			path = BetterIPGWClient;
@@ -171,6 +214,61 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		B384C67F16EB0E150087F6A2 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				B384C65316EAFF100087F6A2 /* first.png */,
+				B384C65516EAFF100087F6A2 /* first@2x.png */,
+				B384C65A16EAFF100087F6A2 /* second.png */,
+				B384C65C16EAFF100087F6A2 /* second@2x.png */,
+				B384C68216EB0EF50087F6A2 /* Icon@2x.png */,
+				B384C68016EB0EF20087F6A2 /* Icon.png */,
+				B384C68A16EB14C70087F6A2 /* Icon-144.png */,
+				B384C68816EB13FD0087F6A2 /* Icon-72.png */,
+			);
+			name = resources;
+			sourceTree = "<group>";
+		};
+		B3F6B89B16EB274C00CF2B80 /* MKNetworkKit */ = {
+			isa = PBXGroup;
+			children = (
+				B3F6B89C16EB274C00CF2B80 /* Categories */,
+				B3F6B8A716EB274C00CF2B80 /* MKNetworkEngine.h */,
+				B3F6B8A816EB274C00CF2B80 /* MKNetworkEngine.m */,
+				B3F6B8A916EB274C00CF2B80 /* MKNetworkKit.h */,
+				B3F6B8AA16EB274C00CF2B80 /* MKNetworkOperation.h */,
+				B3F6B8AB16EB274C00CF2B80 /* MKNetworkOperation.m */,
+				B3F6B8AC16EB274C00CF2B80 /* Reachability */,
+			);
+			path = MKNetworkKit;
+			sourceTree = "<group>";
+		};
+		B3F6B89C16EB274C00CF2B80 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				B3F6B89D16EB274C00CF2B80 /* NSData+Base64.h */,
+				B3F6B89E16EB274C00CF2B80 /* NSData+Base64.m */,
+				B3F6B89F16EB274C00CF2B80 /* NSDate+RFC1123.h */,
+				B3F6B8A016EB274C00CF2B80 /* NSDate+RFC1123.m */,
+				B3F6B8A116EB274C00CF2B80 /* NSDictionary+RequestEncoding.h */,
+				B3F6B8A216EB274C00CF2B80 /* NSDictionary+RequestEncoding.m */,
+				B3F6B8A316EB274C00CF2B80 /* NSString+MKNetworkKitAdditions.h */,
+				B3F6B8A416EB274C00CF2B80 /* NSString+MKNetworkKitAdditions.m */,
+				B3F6B8A516EB274C00CF2B80 /* UIAlertView+MKNetworkKitAdditions.h */,
+				B3F6B8A616EB274C00CF2B80 /* UIAlertView+MKNetworkKitAdditions.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		B3F6B8AC16EB274C00CF2B80 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				B3F6B8AD16EB274C00CF2B80 /* Reachability.h */,
+				B3F6B8AE16EB274C00CF2B80 /* Reachability.m */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -188,7 +286,7 @@
 			);
 			name = BetterIPGWClient;
 			productName = BetterIPGWClient;
-			productReference = B384C63416EAFF0F0087F6A2 /* BetterIPGWClient.app */;
+			productReference = B384C63416EAFF0F0087F6A2 /* Better Gateway.app */;
 			productType = "com.apple.product-type.application";
 		};
 		B384C66216EAFF100087F6A2 /* BetterIPGWClientTests */ = {
@@ -249,6 +347,10 @@
 				B384C65616EAFF100087F6A2 /* first@2x.png in Resources */,
 				B384C65B16EAFF100087F6A2 /* second.png in Resources */,
 				B384C65D16EAFF100087F6A2 /* second@2x.png in Resources */,
+				B384C68116EB0EF20087F6A2 /* Icon.png in Resources */,
+				B384C68316EB0EF50087F6A2 /* Icon@2x.png in Resources */,
+				B384C68916EB13FD0087F6A2 /* Icon-72.png in Resources */,
+				B384C68B16EB14C70087F6A2 /* Icon-144.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +389,14 @@
 				B384C64916EAFF100087F6A2 /* ICMAppDelegate.m in Sources */,
 				B384C65216EAFF100087F6A2 /* ICMFirstViewController.m in Sources */,
 				B384C65916EAFF100087F6A2 /* ICMSecondViewController.m in Sources */,
+				B3F6B8AF16EB274C00CF2B80 /* NSData+Base64.m in Sources */,
+				B3F6B8B016EB274C00CF2B80 /* NSDate+RFC1123.m in Sources */,
+				B3F6B8B116EB274C00CF2B80 /* NSDictionary+RequestEncoding.m in Sources */,
+				B3F6B8B216EB274C00CF2B80 /* NSString+MKNetworkKitAdditions.m in Sources */,
+				B3F6B8B316EB274C00CF2B80 /* UIAlertView+MKNetworkKitAdditions.m in Sources */,
+				B3F6B8B416EB274C00CF2B80 /* MKNetworkEngine.m in Sources */,
+				B3F6B8B516EB274C00CF2B80 /* MKNetworkOperation.m in Sources */,
+				B3F6B8B616EB274C00CF2B80 /* Reachability.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,7 +507,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BetterIPGWClient/BetterIPGWClient-Prefix.pch";
 				INFOPLIST_FILE = "BetterIPGWClient/BetterIPGWClient-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Better Gateway";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -408,7 +518,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BetterIPGWClient/BetterIPGWClient-Prefix.pch";
 				INFOPLIST_FILE = "BetterIPGWClient/BetterIPGWClient-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Better Gateway";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -466,6 +576,7 @@
 				B384C67716EAFF100087F6A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B384C67816EAFF100087F6A2 /* Build configuration list for PBXNativeTarget "BetterIPGWClientTests" */ = {
 			isa = XCConfigurationList;
@@ -474,6 +585,7 @@
 				B384C67A16EAFF100087F6A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
