@@ -14,12 +14,7 @@
 		B384C64516EAFF0F0087F6A2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B384C64416EAFF0F0087F6A2 /* main.m */; };
 		B384C64916EAFF100087F6A2 /* BGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B384C64816EAFF100087F6A2 /* BGAppDelegate.m */; };
 		B384C64C16EAFF100087F6A2 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B384C64A16EAFF100087F6A2 /* MainStoryboard_iPhone.storyboard */; };
-		B384C64F16EAFF100087F6A2 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B384C64D16EAFF100087F6A2 /* MainStoryboard_iPad.storyboard */; };
 		B384C65216EAFF100087F6A2 /* BGFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B384C65116EAFF100087F6A2 /* BGFirstViewController.m */; };
-		B384C65416EAFF100087F6A2 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = B384C65316EAFF100087F6A2 /* first.png */; };
-		B384C65616EAFF100087F6A2 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B384C65516EAFF100087F6A2 /* first@2x.png */; };
-		B384C65B16EAFF100087F6A2 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = B384C65A16EAFF100087F6A2 /* second.png */; };
-		B384C65D16EAFF100087F6A2 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B384C65C16EAFF100087F6A2 /* second@2x.png */; };
 		B384C66516EAFF100087F6A2 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B384C66416EAFF100087F6A2 /* SenTestingKit.framework */; };
 		B384C66616EAFF100087F6A2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B384C63816EAFF0F0087F6A2 /* UIKit.framework */; };
 		B384C66716EAFF100087F6A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B384C63A16EAFF0F0087F6A2 /* Foundation.framework */; };
@@ -29,6 +24,10 @@
 		B384C68316EB0EF50087F6A2 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B384C68216EB0EF50087F6A2 /* Icon@2x.png */; };
 		B384C68916EB13FD0087F6A2 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = B384C68816EB13FD0087F6A2 /* Icon-72.png */; };
 		B384C68B16EB14C70087F6A2 /* Icon-144.png in Resources */ = {isa = PBXBuildFile; fileRef = B384C68A16EB14C70087F6A2 /* Icon-144.png */; };
+		B3A8874F16EB690F0050609D /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = B3A8874B16EB690E0050609D /* Icon-Small-50.png */; };
+		B3A8875016EB690F0050609D /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = B3A8874C16EB690E0050609D /* Icon-Small.png */; };
+		B3A8875116EB690F0050609D /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B3A8874D16EB690E0050609D /* Icon-Small@2x.png */; };
+		B3A8875216EB690F0050609D /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = B3A8874E16EB690E0050609D /* iTunesArtwork */; };
 		B3F6B8AF16EB274C00CF2B80 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F6B89E16EB274C00CF2B80 /* NSData+Base64.m */; };
 		B3F6B8B016EB274C00CF2B80 /* NSDate+RFC1123.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F6B8A016EB274C00CF2B80 /* NSDate+RFC1123.m */; };
 		B3F6B8B116EB274C00CF2B80 /* NSDictionary+RequestEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F6B8A216EB274C00CF2B80 /* NSDictionary+RequestEncoding.m */; };
@@ -65,13 +64,8 @@
 		B384C64716EAFF100087F6A2 /* BGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BGAppDelegate.h; sourceTree = "<group>"; };
 		B384C64816EAFF100087F6A2 /* BGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BGAppDelegate.m; sourceTree = "<group>"; };
 		B384C64B16EAFF100087F6A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
-		B384C64E16EAFF100087F6A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		B384C65016EAFF100087F6A2 /* BGFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BGFirstViewController.h; sourceTree = "<group>"; };
 		B384C65116EAFF100087F6A2 /* BGFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BGFirstViewController.m; sourceTree = "<group>"; };
-		B384C65316EAFF100087F6A2 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = first.png; path = BetterIPGWClient/first.png; sourceTree = "<group>"; };
-		B384C65516EAFF100087F6A2 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "first@2x.png"; path = "BetterIPGWClient/first@2x.png"; sourceTree = "<group>"; };
-		B384C65A16EAFF100087F6A2 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = second.png; path = BetterIPGWClient/second.png; sourceTree = "<group>"; };
-		B384C65C16EAFF100087F6A2 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "second@2x.png"; path = "BetterIPGWClient/second@2x.png"; sourceTree = "<group>"; };
 		B384C66316EAFF100087F6A2 /* BetterIPGWClientTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BetterIPGWClientTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B384C66416EAFF100087F6A2 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		B384C66C16EAFF100087F6A2 /* BetterIPGWClientTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BetterIPGWClientTests-Info.plist"; sourceTree = "<group>"; };
@@ -82,6 +76,10 @@
 		B384C68216EB0EF50087F6A2 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 		B384C68816EB13FD0087F6A2 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
 		B384C68A16EB14C70087F6A2 /* Icon-144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-144.png"; sourceTree = "<group>"; };
+		B3A8874B16EB690E0050609D /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
+		B3A8874C16EB690E0050609D /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		B3A8874D16EB690E0050609D /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		B3A8874E16EB690E0050609D /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork; sourceTree = "<group>"; };
 		B3F6B89D16EB274C00CF2B80 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
 		B3F6B89E16EB274C00CF2B80 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
 		B3F6B89F16EB274C00CF2B80 /* NSDate+RFC1123.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+RFC1123.h"; sourceTree = "<group>"; };
@@ -174,7 +172,6 @@
 				B384C64716EAFF100087F6A2 /* BGAppDelegate.h */,
 				B384C64816EAFF100087F6A2 /* BGAppDelegate.m */,
 				B384C64A16EAFF100087F6A2 /* MainStoryboard_iPhone.storyboard */,
-				B384C64D16EAFF100087F6A2 /* MainStoryboard_iPad.storyboard */,
 				B384C65016EAFF100087F6A2 /* BGFirstViewController.h */,
 				B384C65116EAFF100087F6A2 /* BGFirstViewController.m */,
 				B3F6B8BD16EB2EDF00CF2B80 /* BGNetEngine.h */,
@@ -217,14 +214,14 @@
 		B384C67F16EB0E150087F6A2 /* resources */ = {
 			isa = PBXGroup;
 			children = (
-				B384C65316EAFF100087F6A2 /* first.png */,
-				B384C65516EAFF100087F6A2 /* first@2x.png */,
-				B384C65A16EAFF100087F6A2 /* second.png */,
-				B384C65C16EAFF100087F6A2 /* second@2x.png */,
 				B384C68216EB0EF50087F6A2 /* Icon@2x.png */,
 				B384C68016EB0EF20087F6A2 /* Icon.png */,
 				B384C68A16EB14C70087F6A2 /* Icon-144.png */,
 				B384C68816EB13FD0087F6A2 /* Icon-72.png */,
+				B3A8874B16EB690E0050609D /* Icon-Small-50.png */,
+				B3A8874C16EB690E0050609D /* Icon-Small.png */,
+				B3A8874D16EB690E0050609D /* Icon-Small@2x.png */,
+				B3A8874E16EB690E0050609D /* iTunesArtwork */,
 			);
 			name = resources;
 			sourceTree = "<group>";
@@ -342,15 +339,14 @@
 			files = (
 				B384C64316EAFF0F0087F6A2 /* InfoPlist.strings in Resources */,
 				B384C64C16EAFF100087F6A2 /* MainStoryboard_iPhone.storyboard in Resources */,
-				B384C64F16EAFF100087F6A2 /* MainStoryboard_iPad.storyboard in Resources */,
-				B384C65416EAFF100087F6A2 /* first.png in Resources */,
-				B384C65616EAFF100087F6A2 /* first@2x.png in Resources */,
-				B384C65B16EAFF100087F6A2 /* second.png in Resources */,
-				B384C65D16EAFF100087F6A2 /* second@2x.png in Resources */,
 				B384C68116EB0EF20087F6A2 /* Icon.png in Resources */,
 				B384C68316EB0EF50087F6A2 /* Icon@2x.png in Resources */,
 				B384C68916EB13FD0087F6A2 /* Icon-72.png in Resources */,
 				B384C68B16EB14C70087F6A2 /* Icon-144.png in Resources */,
+				B3A8874F16EB690F0050609D /* Icon-Small-50.png in Resources */,
+				B3A8875016EB690F0050609D /* Icon-Small.png in Resources */,
+				B3A8875116EB690F0050609D /* Icon-Small@2x.png in Resources */,
+				B3A8875216EB690F0050609D /* iTunesArtwork in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,14 +429,6 @@
 				B384C64B16EAFF100087F6A2 /* en */,
 			);
 			name = MainStoryboard_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		B384C64D16EAFF100087F6A2 /* MainStoryboard_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B384C64E16EAFF100087F6A2 /* en */,
-			);
-			name = MainStoryboard_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 		B384C66D16EAFF100087F6A2 /* InfoPlist.strings */ = {

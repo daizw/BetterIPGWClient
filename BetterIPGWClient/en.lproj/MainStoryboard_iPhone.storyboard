@@ -27,7 +27,7 @@
             <objects>
                 <viewController id="2" customClass="BGFirstViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="16">
-                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="用户名" minimumFontSize="17" id="0jM-vu-1Zm">
@@ -37,13 +37,13 @@
                                     <accessibilityTraits key="traits" none="YES"/>
                                 </accessibility>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" enablesReturnKeyAutomatically="YES"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="next" enablesReturnKeyAutomatically="YES"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="密码" minimumFontSize="17" id="TBn-y4-jrX">
                                 <rect key="frame" x="20" y="59" width="280" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" enablesReturnKeyAutomatically="YES" secureTextEntry="YES"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="done" enablesReturnKeyAutomatically="YES" secureTextEntry="YES"/>
                             </textField>
                             <switch opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" id="tAf-fn-Ck8">
                                 <rect key="frame" x="221" y="98" width="79" height="27"/>
@@ -56,7 +56,7 @@
                                 <rect key="frame" x="20" y="101" width="107" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="FJ6-10-RUt">
@@ -90,15 +90,15 @@
                                 </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" borderStyle="line" minimumFontSize="17" id="ZqD-PF-kEO">
-                                <rect key="frame" x="20" y="184" width="280" height="300"/>
+                                <rect key="frame" x="20" y="184" width="280" height="212"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <webView contentMode="scaleToFill" id="8Cm-KZ-NgW">
-                                <rect key="frame" x="20" y="184" width="280" height="300"/>
+                                <rect key="frame" x="20" y="184" width="280" height="212"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
                             </webView>
                         </subviews>
                         <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
@@ -123,38 +123,39 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="10" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-22" y="-197"/>
+            <point key="canvasLocation" x="-94" y="-187"/>
         </scene>
-        <!--View Controller-->
+        <!--View Controller - 关于-->
         <scene sceneID="Lhw-kJ-ySI">
             <objects>
                 <viewController id="5fq-ao-et6" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="GBn-p9-AlC">
-                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" usesAttributedText="YES" id="rxX-hN-aKI">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="504"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="8d7-Rk-3fE">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="416"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <attributedString key="attributedText">
-                                    <fragment content="做这个客户端是因为官方客户端用起来有点麻烦。比如我想在iPad/iPhone上登录网关，但是之前已经在另一台机器登录了网关而且没有断掉，那么我就需要做3个动作：1. 点“断掉所有连接”按钮；2. 等待结果；3. 点“连接”按钮。">
-                                        <attributes>
-                                            <font key="NSFont" size="14" name="STHeitiSC-Light"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences" enablesReturnKeyAutomatically="YES"/>
+                                <string key="text">
+做这个客户端是因为官方客户端用起来有点麻烦。比如我想在iPad/iPhone上登录网关，但是之前已经在另一台机器登录了网关而且没有断掉，那么我就需要做3个动作：
+1. 点“断掉所有连接”按钮；
+2. 等待结果；
+3. 点“连接”按钮。
+比较繁琐。所以作者将这三个操作简化为了一个操作：“强制连接”。
+
+有任何意见或建议，请联系作者：magereaderapp@gmail.com</string>
+                                <fontDescription key="fontDescription" name="SIL-Kai-Reg-Jian" family="Kai" pointSize="13"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="8if-S6-InX"/>
+                    <navigationItem key="navigationItem" title="关于" id="8if-S6-InX"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SvQ-kb-OVm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="412" y="-187"/>
+            <point key="canvasLocation" x="334" y="-187"/>
         </scene>
     </scenes>
     <classes>
@@ -167,7 +168,6 @@
                 <relationship kind="outlet" name="ConnectBtn" candidateClass="UIButton"/>
                 <relationship kind="outlet" name="DisconnectBtn" candidateClass="UIButton"/>
                 <relationship kind="outlet" name="GlobalSwitch" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="about" candidateClass="UINavigationItem"/>
                 <relationship kind="outlet" name="passwordFld" candidateClass="UITextField"/>
                 <relationship kind="outlet" name="statusWebView" candidateClass="UIWebView"/>
                 <relationship kind="outlet" name="usernameFld" candidateClass="UITextField"/>
@@ -177,6 +177,6 @@
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
-        <simulatedScreenMetrics key="destination" type="retina4"/>
+        <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
 </document>

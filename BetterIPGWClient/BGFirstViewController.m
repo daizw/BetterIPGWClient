@@ -36,7 +36,6 @@
     [self setUsernameFld:nil];
     [self setPasswordFld:nil];
     [self setStatusWebView:nil];
-    [self setAbout:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
 }

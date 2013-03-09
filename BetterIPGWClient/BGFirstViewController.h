@@ -24,7 +24,6 @@
 @property (weak, nonatomic) IBOutlet UIButton *DisconnectBtn;
 @property (weak, nonatomic) IBOutlet UISwitch *GlobalSwitch;
 @property (weak, nonatomic) IBOutlet UIWebView *statusWebView;
-@property (weak, nonatomic) IBOutlet UINavigationItem *about;
 
 - (IBAction)connectBtnTapped:(id)sender;
 - (IBAction)disconnectBtnTapped:(id)sender;
