@@ -22,6 +22,12 @@
 
 - (void)viewDidUnload
 {
+    [self setConnectBtn:nil];
+    [self setDisconnectBtn:nil];
+    [self setGlobalSwitch:nil];
+    [self setUsernameFld:nil];
+    [self setPasswordFld:nil];
+    [self setStatusFld:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
 }
@@ -35,4 +41,14 @@
     }
 }
 
+- (IBAction)connectBtnTapped:(id)sender {
+    
+    
+}
+
+- (IBAction)disconnectBtnTapped:(id)sender {
+}
+
+- (IBAction)globalSwitchValueChanged:(id)sender {
+}
 @end
