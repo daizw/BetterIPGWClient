@@ -22,7 +22,7 @@
     
     self.usernameFld.text = [defaults stringForKey:NSDEFAULT_USERNAME_KEY];
     self.passwordFld.text = [defaults stringForKey:NSDEFAULT_PASSWORD_KEY];
-    [self.GlobalSwitch setSelected:[defaults boolForKey:NSDEFAULT_GLOBALIP_KEY]];
+    [self.GlobalSwitch setOn:[defaults boolForKey:NSDEFAULT_GLOBALIP_KEY]];
     
     engine = [BGNetEngine sharedEngine];
     engine.delegate = self;
@@ -56,6 +56,15 @@
                                              forKey:NSDEFAULT_PASSWORD_KEY];
     [[NSUserDefaults standardUserDefaults] setBool:self.GlobalSwitch.isOn
                                             forKey:NSDEFAULT_GLOBALIP_KEY];
+    [[NSUserDefaults standardUserDefaults] synchronize];
+}
+
+- (IBAction)userFldExit:(id)sender {
+    [self.passwordFld becomeFirstResponder];
+}
+
+- (IBAction)passFldExit:(id)sender {
+    [self.ConnectBtn becomeFirstResponder];
 }
 
 - (IBAction)connectBtnTapped:(id)sender {
@@ -92,7 +101,7 @@
 
 - (void)loggedOutWithResponse:(NSString*)resp
 {
-    [self.statusWebView loadHTMLString:resp baseURL:nil];
+    [self.statusWebView loadHTMLString:resp baseURL:[NSURL URLWithString:@"http://its.pku.edu.cn"]];
 }
 
 - (void)loggedOutWithError:(NSError*)error

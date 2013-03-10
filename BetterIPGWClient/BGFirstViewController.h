@@ -25,6 +25,8 @@
 @property (weak, nonatomic) IBOutlet UISwitch *GlobalSwitch;
 @property (weak, nonatomic) IBOutlet UIWebView *statusWebView;
 
+- (IBAction)userFldExit:(id)sender;
+- (IBAction)passFldExit:(id)sender;
 - (IBAction)connectBtnTapped:(id)sender;
 - (IBAction)disconnectBtnTapped:(id)sender;
 - (IBAction)globalSwitchValueChanged:(id)sender;

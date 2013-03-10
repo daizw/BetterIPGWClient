@@ -108,7 +108,15 @@ static BGNetEngine * __sharedEngine = nil;
         }
     } onError:^(NSError *error) {
         DLog(@"%@", error);
-        [self.delegate loggedOutWithError:error];
+        if (reconnect) {// && textRange.location != NSNotFound) {
+            // now reconnect
+            DLog(@"reconnecting...");
+            [self loginWithUsername:name
+                           password:pass
+                             global:isGlobal];
+        } else {
+            [self.delegate loggedOutWithError:error];
+        }
     }];
     
     [self enqueueOperation:op];
