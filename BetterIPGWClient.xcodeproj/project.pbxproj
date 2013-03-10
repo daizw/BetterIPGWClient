@@ -53,7 +53,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B384C63416EAFF0F0087F6A2 /* Gateway++.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gateway++.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B384C63416EAFF0F0087F6A2 /* PKU Gateway.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PKU Gateway.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B384C63816EAFF0F0087F6A2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B384C63A16EAFF0F0087F6A2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B384C63C16EAFF0F0087F6A2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -146,7 +146,7 @@
 		B384C63516EAFF0F0087F6A2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B384C63416EAFF0F0087F6A2 /* Gateway++.app */,
+				B384C63416EAFF0F0087F6A2 /* PKU Gateway.app */,
 				B384C66316EAFF100087F6A2 /* BetterIPGWClientTests.octest */,
 			);
 			name = Products;
@@ -283,7 +283,7 @@
 			);
 			name = BetterIPGWClient;
 			productName = BetterIPGWClient;
-			productReference = B384C63416EAFF0F0087F6A2 /* Gateway++.app */;
+			productReference = B384C63416EAFF0F0087F6A2 /* PKU Gateway.app */;
 			productType = "com.apple.product-type.application";
 		};
 		B384C66216EAFF100087F6A2 /* BetterIPGWClientTests */ = {
@@ -448,6 +448,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Renjie Xu";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -463,6 +464,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PROVISIONING_PROFILE = "E778F22C-41D7-46E9-A082-9A1ABC3F6E74";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -474,6 +476,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Renjie Xu";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -483,6 +486,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "E778F22C-41D7-46E9-A082-9A1ABC3F6E74";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -492,10 +496,12 @@
 		B384C67616EAFF100087F6A2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Zhiwei Dai (5FL2NQYC6V)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BetterIPGWClient/BetterIPGWClient-Prefix.pch";
 				INFOPLIST_FILE = "BetterIPGWClient/BetterIPGWClient-Info.plist";
-				PRODUCT_NAME = "Gateway++";
+				PRODUCT_NAME = "PKU Gateway";
+				PROVISIONING_PROFILE = "DC6566D7-56D6-407D-AE6D-79C20DCEEFE4";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -503,10 +509,12 @@
 		B384C67716EAFF100087F6A2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Zhiwei Dai (5FL2NQYC6V)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BetterIPGWClient/BetterIPGWClient-Prefix.pch";
 				INFOPLIST_FILE = "BetterIPGWClient/BetterIPGWClient-Info.plist";
-				PRODUCT_NAME = "Gateway++";
+				PRODUCT_NAME = "PKU Gateway";
+				PROVISIONING_PROFILE = "DC6566D7-56D6-407D-AE6D-79C20DCEEFE4";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
