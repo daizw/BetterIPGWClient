@@ -58,8 +58,8 @@
                                     <action selector="globalSwitchValueChanged:" destination="2" eventType="valueChanged" id="sEm-PK-51u"/>
                                 </connections>
                             </switch>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="访问收费地址 " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="QDn-4m-3hY">
-                                <rect key="frame" x="20" y="101" width="107" height="21"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="访问收费地址: " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="QDn-4m-3hY">
+                                <rect key="frame" x="20" y="101" width="112" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
