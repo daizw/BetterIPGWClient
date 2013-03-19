@@ -28,6 +28,8 @@
 		B3A8875016EB690F0050609D /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = B3A8874C16EB690E0050609D /* Icon-Small.png */; };
 		B3A8875116EB690F0050609D /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B3A8874D16EB690E0050609D /* Icon-Small@2x.png */; };
 		B3A8875216EB690F0050609D /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = B3A8874E16EB690E0050609D /* iTunesArtwork */; };
+		B3C85B6C16F83FA40073E8F1 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B3C85B6E16F83FA40073E8F1 /* Localizable.strings */; };
+		B3C85B7316F842760073E8F1 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B3C85B7116F842760073E8F1 /* Localizable.strings */; };
 		B3F6B8AF16EB274C00CF2B80 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F6B89E16EB274C00CF2B80 /* NSData+Base64.m */; };
 		B3F6B8B016EB274C00CF2B80 /* NSDate+RFC1123.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F6B8A016EB274C00CF2B80 /* NSDate+RFC1123.m */; };
 		B3F6B8B116EB274C00CF2B80 /* NSDictionary+RequestEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F6B8A216EB274C00CF2B80 /* NSDictionary+RequestEncoding.m */; };
@@ -80,6 +82,8 @@
 		B3A8874C16EB690E0050609D /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
 		B3A8874D16EB690E0050609D /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
 		B3A8874E16EB690E0050609D /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork; sourceTree = "<group>"; };
+		B3C85B6D16F83FA40073E8F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		B3C85B7216F842760073E8F1 /* zh */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = zh; path = BetterIPGWClient/zh.lproj/Localizable.strings; sourceTree = "<group>"; };
 		B3F6B89D16EB274C00CF2B80 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
 		B3F6B89E16EB274C00CF2B80 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
 		B3F6B89F16EB274C00CF2B80 /* NSDate+RFC1123.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+RFC1123.h"; sourceTree = "<group>"; };
@@ -214,6 +218,8 @@
 		B384C67F16EB0E150087F6A2 /* resources */ = {
 			isa = PBXGroup;
 			children = (
+				B3C85B6E16F83FA40073E8F1 /* Localizable.strings */,
+				B3C85B7116F842760073E8F1 /* Localizable.strings */,
 				B384C68216EB0EF50087F6A2 /* Icon@2x.png */,
 				B384C68016EB0EF20087F6A2 /* Icon.png */,
 				B384C68A16EB14C70087F6A2 /* Icon-144.png */,
@@ -320,6 +326,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				zh,
 			);
 			mainGroup = B384C62916EAFF0F0087F6A2;
 			productRefGroup = B384C63516EAFF0F0087F6A2 /* Products */;
@@ -347,6 +354,8 @@
 				B3A8875016EB690F0050609D /* Icon-Small.png in Resources */,
 				B3A8875116EB690F0050609D /* Icon-Small@2x.png in Resources */,
 				B3A8875216EB690F0050609D /* iTunesArtwork in Resources */,
+				B3C85B6C16F83FA40073E8F1 /* Localizable.strings in Resources */,
+				B3C85B7316F842760073E8F1 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +446,23 @@
 				B384C66E16EAFF100087F6A2 /* en */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B3C85B6E16F83FA40073E8F1 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3C85B6D16F83FA40073E8F1 /* en */,
+			);
+			name = Localizable.strings;
+			path = BetterIPGWClient;
+			sourceTree = "<group>";
+		};
+		B3C85B7116F842760073E8F1 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3C85B7216F842760073E8F1 /* zh */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

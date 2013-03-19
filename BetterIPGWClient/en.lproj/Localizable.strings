@@ -1,0 +1,15 @@
+/*
+ Localizable.strings
+ BetterIPGWClient
+ 
+ Created by shinysky on 13-3-19.
+ 
+ */
+
+"TITLE_MAIN" = "北京大学校园网关客户端";
+"TITLE_ABOUT" = "About";
+"USERNAME" = "Username";
+"PASSWORD" = "Password";
+"GLOBAL_ACCESS" = "Global Access:";
+"CONNECT" = "Force Connect";
+"DISCONNECT" = "Disconnect All";
