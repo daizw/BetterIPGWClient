@@ -28,6 +28,7 @@
 		B3A8875016EB690F0050609D /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = B3A8874C16EB690E0050609D /* Icon-Small.png */; };
 		B3A8875116EB690F0050609D /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B3A8874D16EB690E0050609D /* Icon-Small@2x.png */; };
 		B3A8875216EB690F0050609D /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = B3A8874E16EB690E0050609D /* iTunesArtwork */; };
+		B3E55B8A16F85766002B2CB7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B3E55B8916F85766002B2CB7 /* Default-568h@2x.png */; };
 		B3F6B8AF16EB274C00CF2B80 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F6B89E16EB274C00CF2B80 /* NSData+Base64.m */; };
 		B3F6B8B016EB274C00CF2B80 /* NSDate+RFC1123.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F6B8A016EB274C00CF2B80 /* NSDate+RFC1123.m */; };
 		B3F6B8B116EB274C00CF2B80 /* NSDictionary+RequestEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F6B8A216EB274C00CF2B80 /* NSDictionary+RequestEncoding.m */; };
@@ -81,6 +82,7 @@
 		B3A8874D16EB690E0050609D /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
 		B3A8874E16EB690E0050609D /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork; sourceTree = "<group>"; };
 		B3C85B7E16F846CC0073E8F1 /* zh */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = zh; path = zh.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		B3E55B8916F85766002B2CB7 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		B3F6B89D16EB274C00CF2B80 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
 		B3F6B89E16EB274C00CF2B80 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
 		B3F6B89F16EB274C00CF2B80 /* NSDate+RFC1123.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+RFC1123.h"; sourceTree = "<group>"; };
@@ -215,6 +217,7 @@
 		B384C67F16EB0E150087F6A2 /* resources */ = {
 			isa = PBXGroup;
 			children = (
+				B3E55B8916F85766002B2CB7 /* Default-568h@2x.png */,
 				B384C68216EB0EF50087F6A2 /* Icon@2x.png */,
 				B384C68016EB0EF20087F6A2 /* Icon.png */,
 				B384C68A16EB14C70087F6A2 /* Icon-144.png */,
@@ -350,6 +353,7 @@
 				B3A8875016EB690F0050609D /* Icon-Small.png in Resources */,
 				B3A8875116EB690F0050609D /* Icon-Small@2x.png in Resources */,
 				B3A8875216EB690F0050609D /* iTunesArtwork in Resources */,
+				B3E55B8A16F85766002B2CB7 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
