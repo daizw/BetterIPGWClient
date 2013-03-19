@@ -22,7 +22,7 @@
             </objects>
             <point key="canvasLocation" x="-531" y="-187"/>
         </scene>
-        <!--First View Controller - 北京大学校园网关客户端-->
+        <!--First View Controller - PKU IPGW Client-->
         <scene sceneID="11">
             <objects>
                 <viewController id="2" customClass="BGFirstViewController" sceneMemberID="viewController">
@@ -30,7 +30,7 @@
                         <rect key="frame" x="0.0" y="64" width="320" height="416"/>
                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="用户名" minimumFontSize="17" id="0jM-vu-1Zm">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" minimumFontSize="17" id="0jM-vu-1Zm">
                                 <rect key="frame" x="20" y="20" width="280" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <accessibility key="accessibilityConfiguration" hint="" label="">
@@ -42,7 +42,7 @@
                                     <action selector="userFldExit:" destination="2" eventType="editingDidEndOnExit" id="oN2-JX-vM8"/>
                                 </connections>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="密码" minimumFontSize="17" id="TBn-y4-jrX">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" minimumFontSize="17" id="TBn-y4-jrX">
                                 <rect key="frame" x="20" y="59" width="280" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -58,8 +58,8 @@
                                     <action selector="globalSwitchValueChanged:" destination="2" eventType="valueChanged" id="sEm-PK-51u"/>
                                 </connections>
                             </switch>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="访问收费地址: " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="QDn-4m-3hY">
-                                <rect key="frame" x="20" y="101" width="112" height="21"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Global Access: " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="QDn-4m-3hY">
+                                <rect key="frame" x="20" y="101" width="119" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -69,7 +69,7 @@
                                 <rect key="frame" x="20" y="133" width="136" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="强制连接">
+                                <state key="normal" title="Force Connect">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -84,7 +84,7 @@
                                 <rect key="frame" x="164" y="133" width="136" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="断开所有">
+                                <state key="normal" title="Disconnect All">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -109,7 +109,7 @@
                         </subviews>
                         <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" title="北京大学校园网关客户端" id="WqI-wi-uJW">
+                    <navigationItem key="navigationItem" title="PKU IPGW Client" id="WqI-wi-uJW">
                         <barButtonItem key="rightBarButtonItem" style="plain" id="l4g-0A-wY0">
                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoLight" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="PiS-Co-jVk">
                                 <rect key="frame" x="297" y="12" width="18" height="19"/>
@@ -140,7 +140,7 @@
             </objects>
             <point key="canvasLocation" x="-94" y="-187"/>
         </scene>
-        <!--View Controller - 关于-->
+        <!--View Controller - About-->
         <scene sceneID="Lhw-kJ-ySI">
             <objects>
                 <viewController id="5fq-ao-et6" sceneMemberID="viewController">
@@ -152,16 +152,19 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="416"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <string key="text">北京大学校园网关客户端。
+                                <string key="text">PKU IP Gateway Client.
 
-有任何意见或建议，请联系作者：magereaderapp@gmail.com</string>
+Any questions or suggestions are welcome.
+Please contact me at:
+magereaderapp@gmail.com</string>
                                 <fontDescription key="fontDescription" name="SIL-Kai-Reg-Jian" family="Kai" pointSize="13"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
                             </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="关于" id="8if-S6-InX"/>
+                    <navigationItem key="navigationItem" title="About" id="8if-S6-InX"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SvQ-kb-OVm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
