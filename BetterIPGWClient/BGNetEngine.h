@@ -30,6 +30,7 @@
 + (BGNetEngine *)sharedEngine;
 
 - (void)forceLoginWithUsername:(NSString *)name password:(NSString*)pass global:(BOOL)isGlobal;
+- (void)authWithUsername:(NSString *)name password:(NSString*)pass global:(BOOL)isGlobal;
 //- (void)loginWithUsername:(NSString *)name password:(NSString*)pass global:(BOOL)isGlobal;
 - (void)logoutWithUsername:(NSString *)name password:(NSString*)pass global:(BOOL)isGlobal reconnect:(BOOL)reconnect;
 

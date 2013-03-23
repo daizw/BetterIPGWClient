@@ -473,6 +473,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PROVISIONING_PROFILE = "E778F22C-41D7-46E9-A082-9A1ABC3F6E74";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -495,6 +496,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PROVISIONING_PROFILE = "E778F22C-41D7-46E9-A082-9A1ABC3F6E74";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -504,12 +506,14 @@
 		B384C67616EAFF100087F6A2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer: Zhiwei Dai (5FL2NQYC6V)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Renjie Xu";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BetterIPGWClient/BetterIPGWClient-Prefix.pch";
 				INFOPLIST_FILE = "BetterIPGWClient/BetterIPGWClient-Info.plist";
 				PRODUCT_NAME = "PKU Gateway";
-				PROVISIONING_PROFILE = "DC6566D7-56D6-407D-AE6D-79C20DCEEFE4";
+				PROVISIONING_PROFILE = "E778F22C-41D7-46E9-A082-9A1ABC3F6E74";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -517,12 +521,14 @@
 		B384C67716EAFF100087F6A2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer: Zhiwei Dai (5FL2NQYC6V)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Renjie Xu";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BetterIPGWClient/BetterIPGWClient-Prefix.pch";
 				INFOPLIST_FILE = "BetterIPGWClient/BetterIPGWClient-Info.plist";
 				PRODUCT_NAME = "PKU Gateway";
-				PROVISIONING_PROFILE = "DC6566D7-56D6-407D-AE6D-79C20DCEEFE4";
+				PROVISIONING_PROFILE = "E778F22C-41D7-46E9-A082-9A1ABC3F6E74";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

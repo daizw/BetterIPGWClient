@@ -36,6 +36,7 @@
     [self setUsernameFld:nil];
     [self setPasswordFld:nil];
     [self setStatusWebView:nil];
+    [self setAuthBtn:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
 }
@@ -72,6 +73,13 @@
     [engine forceLoginWithUsername:self.usernameFld.text
                           password:self.passwordFld.text
                             global:self.GlobalSwitch.isOn];
+}
+
+- (IBAction)authBtnTapped:(id)sender {
+    [self saveProfile];
+    [engine authWithUsername:self.usernameFld.text
+                    password:self.passwordFld.text
+                      global:self.GlobalSwitch.isOn];
 }
 
 - (IBAction)disconnectBtnTapped:(id)sender {

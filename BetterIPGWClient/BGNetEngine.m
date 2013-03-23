@@ -25,7 +25,11 @@ static BGNetEngine * __sharedEngine = nil;
 
 - (BGNetEngine*)init
 {
-    if (self = [super initWithHostName:IPGW_HOST customHeaderFields:nil]) {
+    if (self = [super initWithHostName:IPGW_HOST
+                    customHeaderFields:[NSDictionary dictionaryWithObjectsAndKeys:
+                                        @"Mozilla/5.0 (iPhone; CPU iPhone OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A5376e Safari/8536.25", @"User-Agent",
+                                        @"https://its.pku.edu.cn/itsmobile/wLogin.html", @"Referer",
+                                                                     nil]]) {
     }
     return self;
 }
@@ -39,6 +43,79 @@ static BGNetEngine * __sharedEngine = nil;
                       global:isGlobal
                    reconnect:YES];
 }
+
+- (NSString *)decodeString:(NSData *)data
+{
+    NSString *respStr = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
+    if(respStr == NULL)
+    {
+        unsigned long encode = CFStringConvertEncodingToNSStringEncoding(kCFStringEncodingGB_18030_2000);
+        respStr = [[NSString alloc] initWithData:data encoding:encode];
+    }
+    if(respStr == NULL)
+    {
+        respStr = [[NSString alloc] initWithData:data encoding:NSASCIIStringEncoding];
+    }
+    return respStr;
+}
+
+- (void)authStep2
+{
+    {
+        MKNetworkOperation *op = [self operationWithURLString:@"https://its.pku.edu.cn/netportal/PKUIPGW"
+                                                       params:[NSDictionary dictionaryWithObjectsAndKeys:
+                                                               @"open", @"cmd",
+                                                               @"ca", @"type",
+                                                               @"0", @"fr",
+                                                               nil]
+                                                   httpMethod:@"POST"];
+        
+        [op onCompletion:^(MKNetworkOperation *operation) {
+            DLog(@"%@", operation);
+            NSString *respStr = [self decodeString:[operation responseData]];
+            DLog(@"%@", respStr);
+            //成功
+            //连接数超过预定
+            //没有包月
+            [self.delegate loggedInWithResponse:respStr];
+        } onError:^(NSError *error) {
+            DLog(@"%@", error);
+            [self.delegate loggedInWithError:error];
+        }];
+        
+        [self enqueueOperation:op];
+    }
+}
+- (void)authWithUsername:(NSString *)name
+                password:(NSString*)pass
+                  global:(BOOL)isGlobal
+{
+    MKNetworkOperation *op = [self operationWithURLString:@"https://its.pku.edu.cn/cas/login"
+                                              params:[NSDictionary dictionaryWithObjectsAndKeys:
+                                                      name, @"username1",
+                                                      pass, @"password",
+                                                      @"1|;kiDrqvfi7d$v0p5Fg72Vwbv2;|2|;kiDrqvfi7d$v0p5Fg72Vwbv2;|14",
+                                                      @"username",
+                                                      nil]
+                                          httpMethod:@"POST"];
+    
+    [op onCompletion:^(MKNetworkOperation *operation) {
+        DLog(@"%@", operation);
+        NSString *respStr = [self decodeString:[operation responseData]];
+        DLog(@"respStr: %@", respStr);
+        //成功
+        //连接数超过预定
+        //没有包月
+        [self.delegate loggedInWithResponse:respStr];
+        //[self authStep2];
+    } onError:^(NSError *error) {
+        DLog(@"%@", error);
+        [self.delegate loggedInWithError:error];
+    }];
+    
+    [self enqueueOperation:op];
+}
+
 - (void)loginWithUsername:(NSString *)name
                  password:(NSString*)pass
                    global:(BOOL)isGlobal
@@ -57,9 +134,7 @@ static BGNetEngine * __sharedEngine = nil;
     
     [op onCompletion:^(MKNetworkOperation *operation) {
         DLog(@"%@", operation);
-        unsigned long encode = CFStringConvertEncodingToNSStringEncoding(kCFStringEncodingGB_18030_2000);
-        NSData* data = [operation responseData];
-        NSString *respStr = [[NSString alloc] initWithData:data encoding:encode];
+        NSString *respStr = [self decodeString:[operation responseData]];
         DLog(@"%@", respStr);
         //成功
         //连接数超过预定
@@ -92,9 +167,7 @@ static BGNetEngine * __sharedEngine = nil;
     
     [op onCompletion:^(MKNetworkOperation *operation) {
         DLog(@"%@", operation);
-        unsigned long encode = CFStringConvertEncodingToNSStringEncoding(kCFStringEncodingGB_18030_2000);
-        NSData* data = [operation responseData];
-        NSString *respStr = [[NSString alloc] initWithData:data encoding:encode];
+        NSString *respStr = [self decodeString:[operation responseData]];
         DLog(@"%@", respStr);
         //NSRange textRange =[respStr rangeOfString:@"SUCCESS=YES"];
         if (reconnect) {// && textRange.location != NSNotFound) {
