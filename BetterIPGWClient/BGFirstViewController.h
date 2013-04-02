@@ -25,6 +25,7 @@
 @property (weak, nonatomic) IBOutlet UIButton *AuthBtn;
 @property (weak, nonatomic) IBOutlet UISwitch *GlobalSwitch;
 @property (weak, nonatomic) IBOutlet UIWebView *statusWebView;
+@property (weak, nonatomic) IBOutlet UILabel *ipLabel;
 
 - (IBAction)userFldExit:(id)sender;
 - (IBAction)passFldExit:(id)sender;

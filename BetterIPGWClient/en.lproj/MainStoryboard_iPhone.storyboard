@@ -27,7 +27,7 @@
             <objects>
                 <viewController id="2" customClass="BGFirstViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="16">
-                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" minimumFontSize="17" id="0jM-vu-1Zm">
@@ -96,13 +96,13 @@
                                 </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" borderStyle="line" minimumFontSize="17" id="ZqD-PF-kEO">
-                                <rect key="frame" x="20" y="184" width="280" height="212"/>
+                                <rect key="frame" x="20" y="184" width="280" height="300"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <webView contentMode="scaleToFill" id="8Cm-KZ-NgW">
-                                <rect key="frame" x="20" y="184" width="280" height="212"/>
+                                <rect key="frame" x="20" y="184" width="280" height="300"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
                             </webView>
@@ -145,11 +145,11 @@
             <objects>
                 <viewController id="5fq-ao-et6" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="GBn-p9-AlC">
-                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" id="8d7-Rk-3fE">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="416"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="504"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <string key="text">PKU IP Gateway Client.
@@ -175,14 +175,17 @@ magereaderapp@gmail.com</string>
         <class className="BGFirstViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/BGFirstViewController.h"/>
             <relationships>
+                <relationship kind="action" name="authBtnTapped:"/>
                 <relationship kind="action" name="connectBtnTapped:"/>
                 <relationship kind="action" name="disconnectBtnTapped:"/>
                 <relationship kind="action" name="globalSwitchValueChanged:"/>
                 <relationship kind="action" name="passFldExit:"/>
                 <relationship kind="action" name="userFldExit:"/>
+                <relationship kind="outlet" name="AuthBtn" candidateClass="UIButton"/>
                 <relationship kind="outlet" name="ConnectBtn" candidateClass="UIButton"/>
                 <relationship kind="outlet" name="DisconnectBtn" candidateClass="UIButton"/>
                 <relationship kind="outlet" name="GlobalSwitch" candidateClass="UISwitch"/>
+                <relationship kind="outlet" name="ipLabel" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="passwordFld" candidateClass="UITextField"/>
                 <relationship kind="outlet" name="statusWebView" candidateClass="UIWebView"/>
                 <relationship kind="outlet" name="usernameFld" candidateClass="UITextField"/>
@@ -192,6 +195,6 @@ magereaderapp@gmail.com</string>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
-        <simulatedScreenMetrics key="destination"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
 </document>
