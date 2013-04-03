@@ -8,11 +8,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "BetterIPGWClient/BGNetEngine.m"
-         timestampString = "384521223.336703"
+         timestampString = "385715912.407304"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "100"
-         endingLineNumber = "100"
+         startingLineNumber = "173"
+         endingLineNumber = "173"
          landmarkName = "-logoutWithUsername:password:global:reconnect:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -21,11 +21,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "BetterIPGWClient/BGNetEngine.m"
-         timestampString = "384521223.336703"
+         timestampString = "385715912.407304"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "99"
-         endingLineNumber = "99"
+         startingLineNumber = "172"
+         endingLineNumber = "172"
          landmarkName = "-logoutWithUsername:password:global:reconnect:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -34,11 +34,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "BetterIPGWClient/BGNetEngine.m"
-         timestampString = "384582250.071285"
+         timestampString = "385715912.407304"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "110"
-         endingLineNumber = "110"
+         startingLineNumber = "183"
+         endingLineNumber = "183"
          landmarkName = "-logoutWithUsername:password:global:reconnect:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -47,11 +47,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "BetterIPGWClient/BGFirstViewController.m"
-         timestampString = "384581768.110247"
+         timestampString = "386604003.306714"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "86"
-         endingLineNumber = "86"
+         startingLineNumber = "134"
+         endingLineNumber = "134"
          landmarkName = "-globalSwitchValueChanged:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -59,13 +59,13 @@
          shouldBeEnabled = "Yes"
          ignoreCount = "0"
          continueAfterRunningActions = "No"
-         filePath = "BetterIPGWClient/BGFirstViewController.m"
-         timestampString = "384581853.675081"
+         filePath = "BetterIPGWClient/BGNetEngine.m"
+         timestampString = "385715912.407304"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "57"
-         endingLineNumber = "57"
-         landmarkName = "-saveProfile"
+         startingLineNumber = "109"
+         endingLineNumber = "109"
+         landmarkName = "-authWithUsername:password:global:"
          landmarkType = "5">
       </FileBreakpoint>
    </FileBreakpoints>
