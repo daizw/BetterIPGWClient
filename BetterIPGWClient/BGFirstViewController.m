@@ -32,7 +32,7 @@
         || [self.ipLabel.text hasPrefix:@"219.223"]) {
         self.ipLabel.textColor = [UIColor whiteColor];
     } else {
-        self.ipLabel.textColor = [UIColor redColor];
+        self.ipLabel.textColor = [UIColor cyanColor];
     }
     
     engine = [BGNetEngine sharedEngine];
