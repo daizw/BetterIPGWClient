@@ -52,24 +52,24 @@
                                 </connections>
                             </textField>
                             <switch opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" id="tAf-fn-Ck8">
-                                <rect key="frame" x="221" y="98" width="79" height="27"/>
+                                <rect key="frame" x="223" y="98" width="79" height="27"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <action selector="globalSwitchValueChanged:" destination="2" eventType="valueChanged" id="sEm-PK-51u"/>
                                 </connections>
                             </switch>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Global Access: " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="QDn-4m-3hY">
-                                <rect key="frame" x="20" y="101" width="119" height="21"/>
+                                <rect key="frame" x="20" y="101" width="112" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="FJ6-10-RUt">
-                                <rect key="frame" x="20" y="133" width="136" height="44"/>
+                                <rect key="frame" x="20" y="133" width="89" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Force Connect">
+                                <state key="normal" title="Connect">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -80,11 +80,26 @@
                                     <action selector="connectBtnTapped:" destination="2" eventType="touchUpInside" id="EF0-Jr-aMo"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="right" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="I74-8j-ihI">
-                                <rect key="frame" x="164" y="133" width="136" height="44"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="WHq-Wq-Hte">
+                                <rect key="frame" x="117" y="133" width="86" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Disconnect All">
+                                <state key="normal" title="Wireless">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="authBtnTapped:" destination="2" eventType="touchUpInside" id="JWp-z5-gE7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="right" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="I74-8j-ihI">
+                                <rect key="frame" x="211" y="133" width="89" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Disconnect">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -95,12 +110,21 @@
                                     <action selector="disconnectBtnTapped:" destination="2" eventType="touchUpInside" id="4Co-bo-3rl"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" borderStyle="line" minimumFontSize="17" id="ZqD-PF-kEO">
-                                <rect key="frame" x="20" y="184" width="280" height="300"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="IP:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="E4q-V3-U2j">
+                                <rect key="frame" x="20" y="483" width="89" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="HUP-le-8Ua">
+                                <rect key="frame" x="117" y="483" width="183" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="13"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <size key="shadowOffset" width="0.0" height="0.0"/>
+                            </label>
                             <webView contentMode="scaleToFill" id="8Cm-KZ-NgW">
                                 <rect key="frame" x="20" y="184" width="280" height="300"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES"/>
@@ -128,9 +152,11 @@
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" barStyle="blackOpaque" prompted="NO"/>
                     <nil key="simulatedBottomBarMetrics"/>
                     <connections>
+                        <outlet property="AuthBtn" destination="WHq-Wq-Hte" id="jZP-so-Jn6"/>
                         <outlet property="ConnectBtn" destination="FJ6-10-RUt" id="GO0-Ci-uQ8"/>
                         <outlet property="DisconnectBtn" destination="I74-8j-ihI" id="zBZ-L5-wri"/>
                         <outlet property="GlobalSwitch" destination="tAf-fn-Ck8" id="Onj-UK-84K"/>
+                        <outlet property="ipLabel" destination="HUP-le-8Ua" id="fGd-SS-61G"/>
                         <outlet property="passwordFld" destination="TBn-y4-jrX" id="C68-Pb-hdy"/>
                         <outlet property="statusWebView" destination="8Cm-KZ-NgW" id="8FL-Xv-AHN"/>
                         <outlet property="usernameFld" destination="0jM-vu-1Zm" id="viP-cz-z3T"/>
@@ -153,6 +179,10 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <string key="text">PKU IP Gateway Client.
+
+“Connect” = Disconnect All + Connect
+“Wireless” = Access Campus Network Only
+“Disconnect” = Disconnect All
 
 Any questions or suggestions are welcome.
 Please contact me at:
