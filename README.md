@@ -1,4 +1,5 @@
 BetterIPGWClient
 ================
 
-Yet another PKU IPGW client
+Yet another PKU IPGW client, which is better.
+
